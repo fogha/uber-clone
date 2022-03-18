@@ -10,7 +10,7 @@ An uber ui clone, with some working functionality.
 
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/lorde/image/upload/v1647634048/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.13_ahqckq.png)
+![App Screenshot](https://res.cloudinary.com/lorde/image/upload/v1647634048/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.13_ahqckq.png, https://res.cloudinary.com/lorde/image/upload/v1647634050/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.22_xzauxk.png)
 
 ![App Screenshot](https://res.cloudinary.com/lorde/image/upload/v1647634050/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.22_xzauxk.png)
 
