@@ -10,15 +10,19 @@ An uber ui clone, with some working functionality.
 
 ## Screenshots
 
-<img src="https://res.cloudinary.com/lorde/image/upload/v1647634048/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.13_ahqckq.png" width="200" />
+<div style="display: flex; ">
 
-<img src="https://res.cloudinary.com/lorde/image/upload/v1647634050/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.22_xzauxk.png" width="200" />
+  <img src="https://res.cloudinary.com/lorde/image/upload/v1647634048/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.13_ahqckq.png" width="200" />
 
-<img src="https://res.cloudinary.com/lorde/image/upload/v1647634045/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.07_tf24pr.png" width="200" />
+  <img src="https://res.cloudinary.com/lorde/image/upload/v1647634050/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.22_xzauxk.png" width="200" />
 
-<img src="https://res.cloudinary.com/lorde/image/upload/v1647634038/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.05.46_y1gsiv.png" width="200" />
+  <img src="https://res.cloudinary.com/lorde/image/upload/v1647634045/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.06.07_tf24pr.png" width="200" />
 
-<img src="https://res.cloudinary.com/lorde/image/upload/v1647634037/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.05.30_pukuzd.png" width="200" />
+  <img src="https://res.cloudinary.com/lorde/image/upload/v1647634038/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.05.46_y1gsiv.png" width="200" />
+
+  <img src="https://res.cloudinary.com/lorde/image/upload/v1647634037/builds/Simulator_Screen_Shot_-_iPhone_12_-_2022-03-18_at_21.05.30_pukuzd.png" width="200" />
+
+</div>
 
 ## Demo
 
