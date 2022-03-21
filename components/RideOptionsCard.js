@@ -1,5 +1,5 @@
-import { View, Text, TouchableOpacity, Image } from 'react-native'
 import React, { useState } from 'react'
+import { View, Text, TouchableOpacity, Image } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import tw from 'tailwind-react-native-classnames'
 import { Icon } from 'react-native-elements'
@@ -37,7 +37,7 @@ const RideOptionsCard = () => {
   const travelTimeInfo = useSelector(selectTravelTimeInfo)
 
   return (
-    <SafeAreaView style={[tw`bg-white flex-grow`, { marginTop: -20 }]}>
+    <SafeAreaView style={[tw`bg-white flex-grow`, { marginTop: -50 }]}>
       <View>
         <TouchableOpacity
           onPress={() => navigation.goBack()}

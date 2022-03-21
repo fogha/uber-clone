@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import tw from 'tailwind-react-native-classnames'
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
@@ -15,7 +15,7 @@ const NavigateCard = () => {
   const navigation = useNavigation()
 
   return (
-    <SafeAreaView style={[tw`bg-white flex-1`, {marginTop: -20}]}>
+    <SafeAreaView style={[tw`bg-white flex-1`, {marginTop: -50}]}>
       <Text style={tw`text-center py-5 text-xl`}>Good morning Armand</Text>
       <View style={tw`border-t border-gray-200 flex-shrink`}>
         <View>

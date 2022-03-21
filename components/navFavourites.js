@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 import { FlatList, TouchableOpacity } from 'react-native-gesture-handler'
 import tw from 'tailwind-react-native-classnames'
 import { Icon } from 'react-native-elements'

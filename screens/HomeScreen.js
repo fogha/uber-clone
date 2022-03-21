@@ -1,13 +1,12 @@
 import React from 'react';
-import { View, Text, SafeAreaView, Image } from 'react-native'
-import styles from './styles';
+import { View, SafeAreaView, Image, StyleSheet } from 'react-native'
 import tw from "tailwind-react-native-classnames"
-import NavOptions from '../../components/navOptions';
+import NavOptions from '../components/navOptions';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_MAPS_KEY } from "@env"
 import { useDispatch } from 'react-redux';
-import { setDestination, setOrigin } from './../../slices/navigationSlice';
-import NavFavourites from '../../components/navFavourites';
+import { setDestination, setOrigin } from '../slices/navigationSlice';
+import NavFavourites from '../components/navFavourites';
 
 const HomeScreen = () => {
   const dispatch = useDispatch();
@@ -50,3 +49,11 @@ const HomeScreen = () => {
 }
 
 export default HomeScreen
+
+const styles = StyleSheet.create({
+  img: {
+      width: 100,
+      height: 100,
+      resizeMode: "contain"
+  }
+})

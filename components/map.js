@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react'
 import MapView, { Marker } from 'react-native-maps';
-import { View, Text } from 'react-native'
 import tw from 'tailwind-react-native-classnames';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectDestination, selectOrigin, setTravelTimeInfo } from '../slices/navigationSlice';
@@ -25,18 +24,18 @@ const Map = () => {
     useEffect(() => {
         if (!origin || !destination) return;
 
-        const getTravelTime = async () => {
-            fetch(
-                `https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=${origin.description}&destinations=${destination.description}&key=${GOOGLE_MAPS_KEY}`
-            )
-                .then(res => res.json())
-                .then(data => {
-                    dispatch(setTravelTimeInfo(data.rows[0].elements[0]))
-                })
-        }
-
         getTravelTime()
     }, [origin, destination, GOOGLE_MAPS_KEY])
+
+    const getTravelTime = async () => {
+        fetch(
+            `https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins=${origin.description}&destinations=${destination.description}&key=${GOOGLE_MAPS_KEY}`
+        )
+            .then(res => res.json())
+            .then(data => {
+                dispatch(setTravelTimeInfo(data.rows[0].elements[0]))
+            })
+    }
 
     return (
         <MapView
